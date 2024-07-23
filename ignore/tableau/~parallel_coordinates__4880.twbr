@@ -1,0 +1,1507 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0208.0337                               -->
+<workbook original-version='18.1' source-build='2024.1.0 (20241.24.0208.0337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.DataOrientationSidePane.true...DataOrientationSidePane />
+    <HideSortControls />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Hoja1 (ansatz)' inline='true' name='federated.1bwgydo0lyrah61h6764g1ahb7w6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ansatz' name='excel-direct.1vllplr1va2y3017696690mshk27'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/52333/Documents/doctorado/Quantum_1DCNN_Experiments_Colab/final_tests_simplified/tableau/ansatz.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1vllplr1va2y3017696690mshk27' name='Hoja1' table='[Hoja1$]' type='table'>
+          <columns gridOrigin='A1:A5:no:A1:A5:0' header='yes' outcome='6'>
+            <column datatype='string' name='Ansatz' ordinal='0' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1vllplr1va2y3017696690mshk27' name='Hoja1' table='[Hoja1$]' type='table'>
+          <columns gridOrigin='A1:A5:no:A1:A5:0' header='yes' outcome='6'>
+            <column datatype='string' name='Ansatz' ordinal='0' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:A5:no:A1:A5:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ansatz</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ansatz]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Ansatz</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RMX_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_32891E228DD8475C83319AE3CB355FB0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Ansatz]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Hoja1' datatype='table' name='[__tableau_internal_object_id__].[Hoja1_32891E228DD8475C83319AE3CB355FB0]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='4' show-structure='false' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Estados Unidos Mexicanos&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Hoja1' id='Hoja1_32891E228DD8475C83319AE3CB355FB0'>
+            <properties context=''>
+              <relation connection='excel-direct.1vllplr1va2y3017696690mshk27' name='Hoja1' table='[Hoja1$]' type='table'>
+                <columns gridOrigin='A1:A5:no:A1:A5:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Ansatz' ordinal='0' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='runs (12) (runs)' inline='true' name='federated.073hkbj10os9rb119l7bn1fa7io7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ansatz' name='excel-direct.163z3a61tik4uz1c3gwf30756jfi'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/52333/Documents/doctorado/Quantum_1DCNN_Experiments_Colab/final_tests_simplified/tableau/ansatz.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='runs' name='excel-direct.0vha4xr1i3drk81g4qu0v18ct4y0'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/52333/Documents/doctorado/Quantum_1DCNN_Experiments_Colab/final_tests_simplified/tableau/runs.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0vha4xr1i3drk81g4qu0v18ct4y0' name='runs (12)' table='[&apos;runs (12)$&apos;]' type='table'>
+          <columns gridOrigin='A1:Q112:no:A1:Q112:0' header='yes' outcome='2'>
+            <column datatype='datetime' name='Start Time' ordinal='0' />
+            <column datatype='string' name='Duration' ordinal='1' />
+            <column datatype='string' name='Run ID' ordinal='2' />
+            <column datatype='string' name='Name' ordinal='3' />
+            <column datatype='string' name='Source Type' ordinal='4' />
+            <column datatype='string' name='Source Name' ordinal='5' />
+            <column datatype='integer' name='User' ordinal='6' />
+            <column datatype='string' name='Status' ordinal='7' />
+            <column datatype='string' name='ansatz' ordinal='8' />
+            <column datatype='integer' name='kernel' ordinal='9' />
+            <column datatype='integer' name='layers' ordinal='10' />
+            <column datatype='integer' name='qubits' ordinal='11' />
+            <column datatype='real' name='MAE_TEST' ordinal='12' />
+            <column datatype='real' name='MAPE_TEST' ordinal='13' />
+            <column datatype='real' name='RMSE_TEST' ordinal='14' />
+            <column datatype='string' name='RMSE_TRAIN' ordinal='15' />
+            <column datatype='string' name='training time' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0vha4xr1i3drk81g4qu0v18ct4y0' name='runs (12)' table='[&apos;runs (12)$&apos;]' type='table'>
+          <columns gridOrigin='A1:Q112:no:A1:Q112:0' header='yes' outcome='2'>
+            <column datatype='datetime' name='Start Time' ordinal='0' />
+            <column datatype='string' name='Duration' ordinal='1' />
+            <column datatype='string' name='Run ID' ordinal='2' />
+            <column datatype='string' name='Name' ordinal='3' />
+            <column datatype='string' name='Source Type' ordinal='4' />
+            <column datatype='string' name='Source Name' ordinal='5' />
+            <column datatype='integer' name='User' ordinal='6' />
+            <column datatype='string' name='Status' ordinal='7' />
+            <column datatype='string' name='ansatz' ordinal='8' />
+            <column datatype='integer' name='kernel' ordinal='9' />
+            <column datatype='integer' name='layers' ordinal='10' />
+            <column datatype='integer' name='qubits' ordinal='11' />
+            <column datatype='real' name='MAE_TEST' ordinal='12' />
+            <column datatype='real' name='MAPE_TEST' ordinal='13' />
+            <column datatype='real' name='RMSE_TEST' ordinal='14' />
+            <column datatype='string' name='RMSE_TRAIN' ordinal='15' />
+            <column datatype='string' name='training time' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Q112:no:A1:Q112:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start Time</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Start Time]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>Start Time</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Duration</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Duration]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>Duration</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RMX_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Run ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Run ID]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>Run ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RMX_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RMX_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Source Type]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>Source Type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RMX_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Source Name]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>Source Name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RMX_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>User</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[User]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>User</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Status]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>Status</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RMX_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ansatz</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ansatz]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>ansatz</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RMX_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kernel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[kernel]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>kernel</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>layers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[layers]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>layers</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qubits</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[qubits]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>qubits</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAE_TEST</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MAE_TEST]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>MAE_TEST</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAPE_TEST</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MAPE_TEST]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>MAPE_TEST</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RMSE_TEST</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RMSE_TEST]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>RMSE_TEST</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RMSE_TRAIN</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[RMSE_TRAIN]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>RMSE_TRAIN</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RMX_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>training time</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[training time]</local-name>
+            <parent-name>[runs (12)]</parent-name>
+            <remote-alias>training time</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RMX_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='CountD' caption='Mae Test' datatype='real' name='[MAE_TEST]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Mape Test' datatype='real' name='[MAPE_TEST]' role='measure' type='quantitative' />
+      <column caption='Name1' datatype='string' name='[Name]' role='dimension' type='nominal' />
+      <column aggregation='CountD' caption='Rmse Test' datatype='real' name='[RMSE_TEST]' role='measure' type='quantitative' />
+      <column caption='Rmse Train' datatype='string' name='[RMSE_TRAIN]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[User]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='runs (12)' datatype='table' name='[__tableau_internal_object_id__].[runs (12)_2C14FC456BAD4E7898B4B3091B3555F6]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Ansatz' datatype='string' default-role='measure' default-type='quantitative' name='[ansatz]' role='dimension' type='nominal' />
+      <column caption='Kernel' datatype='integer' name='[kernel]' role='measure' type='quantitative' />
+      <column caption='Layers' datatype='integer' name='[layers]' role='measure' type='quantitative' />
+      <column caption='Qubits' datatype='integer' name='[qubits]' role='measure' type='quantitative' />
+      <column caption='Training Time' datatype='string' name='[training time]' role='dimension' type='nominal' />
+      <column-instance column='[RMSE_TEST]' derivation='Attribute' name='[attr:RMSE_TEST:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ansatz]' derivation='Attribute' name='[attr:ansatz:nk]' pivot='key' type='nominal' />
+      <column-instance column='[qubits]' derivation='Attribute' name='[attr:qubits:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[qubits]' derivation='Attribute' name='[attr:qubits:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MAE_TEST]' derivation='Count' name='[cnt:MAE_TEST:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[RMSE_TEST]' derivation='Count' name='[cnt:RMSE_TEST:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MAE_TEST]' derivation='CountD' name='[ctd:MAE_TEST:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MAPE_TEST]' derivation='CountD' name='[ctd:MAPE_TEST:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[RMSE_TEST]' derivation='CountD' name='[ctd:RMSE_TEST:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ansatz]' derivation='CountD' name='[ctd:ansatz:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MAE_TEST]' derivation='None' name='[none:MAE_TEST:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MAPE_TEST]' derivation='None' name='[none:MAPE_TEST:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[RMSE_TEST]' derivation='None' name='[none:RMSE_TEST:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[RMSE_TEST]' derivation='None' name='[none:RMSE_TEST:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ansatz]' derivation='None' name='[none:ansatz:nk]' pivot='key' type='nominal' />
+      <column-instance column='[qubits]' derivation='None' name='[none:qubits:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MAE_TEST]' derivation='Sum' name='[sum:MAE_TEST:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[RMSE_TEST]' derivation='Sum' name='[sum:RMSE_TEST:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[User]' derivation='Sum' name='[sum:User:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[kernel]' derivation='Sum' name='[sum:kernel:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[layers]' derivation='Sum' name='[sum:layers:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[qubits]' derivation='Sum' name='[sum:qubits:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[ctd:ansatz:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:MAPE_TEST:ok]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[cnt:MAPE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAPE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[__tableau_internal_object_id__].[cnt:runs (12)_D90427FE85824D24A2A7783A27234E67:qk]&quot;</bucket>
+            </map>
+            <map to='#9d9b3d'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:RMSE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='#9d9b3d'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[cnt:RMSE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='#9d9b3d'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='#9d9b3d'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:RMSE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:layers:qk]&quot;</bucket>
+            </map>
+            <map to='#b9a0b4'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[cnt:MAE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='#b9a0b4'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='#b9a0b4'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:MAE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:User:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[ctd:MAE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:kernel:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[ctd:RMSE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9888'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[ctd:MAPE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9888'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:MAPE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[:Measure Names]' type='shape'>
+            <map to='asterisk'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[__tableau_internal_object_id__].[cnt:runs (12)_D90427FE85824D24A2A7783A27234E67:qk]&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[ctd:MAE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:RMSE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[cnt:RMSE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[ctd:RMSE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:kernel:qk]&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:User:qk]&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:layers:qk]&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[ctd:MAPE_TEST:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:RMSE_TEST:ok]&#10;[:Measure Names]' type='palette'>
+            <map to='#0dc792'>
+              <multibucket>
+                <bucket>0.18053228467166213</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#499894'>
+              <multibucket>
+                <bucket>0.077267402829939394</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#499894'>
+              <multibucket>
+                <bucket>0.077267402829939394</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#499894'>
+              <multibucket>
+                <bucket>0.077267402829939394</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#499894'>
+              <multibucket>
+                <bucket>0.089003920787429594</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>0.045121905378850899</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#55aaff'>
+              <multibucket>
+                <bucket>0.17429775290217403</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#59a14f'>
+              <multibucket>
+                <bucket>0.0692636002259783</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#59a14f'>
+              <multibucket>
+                <bucket>0.0692636002259783</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#59a14f'>
+              <multibucket>
+                <bucket>0.0692636002259783</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#59a14f'>
+              <multibucket>
+                <bucket>0.0692636002259783</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#76b7b2'>
+              <multibucket>
+                <bucket>0.070482800089227499</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#79706e'>
+              <multibucket>
+                <bucket>0.14782982644440346</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#79706e'>
+              <multibucket>
+                <bucket>0.14782982644440346</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#79706e'>
+              <multibucket>
+                <bucket>0.14782982644440346</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#79706e'>
+              <multibucket>
+                <bucket>0.14782982644440346</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#86bcb6'>
+              <multibucket>
+                <bucket>0.089003920787429594</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#86bcb6'>
+              <multibucket>
+                <bucket>0.089003920787429594</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#86bcb6'>
+              <multibucket>
+                <bucket>0.089003920787429594</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#86bcb6'>
+              <multibucket>
+                <bucket>0.095252013547229605</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#8cd17d'>
+              <multibucket>
+                <bucket>0.048793230662157502</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#8cd17d'>
+              <multibucket>
+                <bucket>0.048793230662157502</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#8cd17d'>
+              <multibucket>
+                <bucket>0.048793230662157502</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#a0cbe8'>
+              <multibucket>
+                <bucket>0.048793230662157502</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ab5db9'>
+              <multibucket>
+                <bucket>0.19215471588345587</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b6992d'>
+              <multibucket>
+                <bucket>0.070482800089227499</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b6992d'>
+              <multibucket>
+                <bucket>0.070482800089227499</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b6992d'>
+              <multibucket>
+                <bucket>0.070482800089227499</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b6992d'>
+              <multibucket>
+                <bucket>0.076810344104407999</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#bab0ac'>
+              <multibucket>
+                <bucket>0.053130472099696666</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#bab0ac'>
+              <multibucket>
+                <bucket>0.053130472099696666</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#bab0ac'>
+              <multibucket>
+                <bucket>0.053130472099696666</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#bed38c'>
+              <multibucket>
+                <bucket>0.21104294722052744</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#d37295'>
+              <multibucket>
+                <bucket>0.055842165400772296</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#d37295'>
+              <multibucket>
+                <bucket>0.055842165400772296</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#d37295'>
+              <multibucket>
+                <bucket>0.055842165400772296</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e15759'>
+              <multibucket>
+                <bucket>0.055842165400772296</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e15759'>
+              <multibucket>
+                <bucket>0.095252013547229605</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e15759'>
+              <multibucket>
+                <bucket>0.095252013547229605</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#e15759'>
+              <multibucket>
+                <bucket>0.095252013547229605</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>0.076810344104407999</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>0.076810344104407999</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>0.076810344104407999</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>0.077267402829939394</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f28e2b'>
+              <multibucket>
+                <bucket>0.053130472099696666</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ff9d9a'>
+              <multibucket>
+                <bucket>0.11702266949235075</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ff9d9a'>
+              <multibucket>
+                <bucket>0.11702266949235075</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ff9d9a'>
+              <multibucket>
+                <bucket>0.11702266949235075</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ff9d9a'>
+              <multibucket>
+                <bucket>0.11702266949235075</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ffbe7d'>
+              <multibucket>
+                <bucket>0.045121905378850899</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ffbe7d'>
+              <multibucket>
+                <bucket>0.045121905378850899</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[none:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ffbe7d'>
+              <multibucket>
+                <bucket>0.045121905378850899</bucket>
+                <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:qubits:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:ansatz:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Strongly Entangling&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Basic Entangler&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Custom Entangler&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Random Layers&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[attr:qubits:ok]' type='palette'>
+            <map to='#305d8a'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#80b0d5'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>4</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Estados Unidos Mexicanos&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='runs (12)' id='runs (12)_2C14FC456BAD4E7898B4B3091B3555F6'>
+            <properties context=''>
+              <relation connection='excel-direct.0vha4xr1i3drk81g4qu0v18ct4y0' name='runs (12)' table='[&apos;runs (12)$&apos;]' type='table'>
+                <columns gridOrigin='A1:Q112:no:A1:Q112:0' header='yes' outcome='2'>
+                  <column datatype='datetime' name='Start Time' ordinal='0' />
+                  <column datatype='string' name='Duration' ordinal='1' />
+                  <column datatype='string' name='Run ID' ordinal='2' />
+                  <column datatype='string' name='Name' ordinal='3' />
+                  <column datatype='string' name='Source Type' ordinal='4' />
+                  <column datatype='string' name='Source Name' ordinal='5' />
+                  <column datatype='integer' name='User' ordinal='6' />
+                  <column datatype='string' name='Status' ordinal='7' />
+                  <column datatype='string' name='ansatz' ordinal='8' />
+                  <column datatype='integer' name='kernel' ordinal='9' />
+                  <column datatype='integer' name='layers' ordinal='10' />
+                  <column datatype='integer' name='qubits' ordinal='11' />
+                  <column datatype='real' name='MAE_TEST' ordinal='12' />
+                  <column datatype='real' name='MAPE_TEST' ordinal='13' />
+                  <column datatype='real' name='RMSE_TEST' ordinal='14' />
+                  <column datatype='string' name='RMSE_TRAIN' ordinal='15' />
+                  <column datatype='string' name='training time' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Resaltado 1 (generado)' name='[Action1_4F4D40AF18A841F99DC6542382E6ACB8]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Hoja 1' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Rmse Test,Nombres de medidas' />
+        <param name='target' value='Hoja 1' />
+      </command>
+    </action>
+    <action caption='Resaltado 2 (generado)' name='[Action2_60DA385D801948FE9083B7BB3CDCA124]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Hoja 1 (2)' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='ATRIB(Qubits)' />
+        <param name='target' value='Hoja 1 (2)' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Hoja 1'>
+      <layout-options export-center-horz='true' export-color-legend='false' export-legend-location='bottom'>
+        <title>
+          <formatted-text>
+            <run>Legendre dataset, 8 qubits 4 layers</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>Legendre dataset, 8 qubits and 4 layers</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='runs (12) (runs)' name='federated.073hkbj10os9rb119l7bn1fa7io7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.073hkbj10os9rb119l7bn1fa7io7'>
+            <column aggregation='CountD' caption='Mae Test' datatype='real' name='[MAE_TEST]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Mape Test' datatype='real' name='[MAPE_TEST]' role='measure' type='quantitative' />
+            <column caption='Name1' datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column aggregation='CountD' caption='Rmse Test' datatype='real' name='[RMSE_TEST]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Ansatz' datatype='string' default-role='measure' default-type='quantitative' name='[ansatz]' role='dimension' type='nominal' />
+            <column-instance column='[ansatz]' derivation='Attribute' name='[attr:ansatz:nk]' pivot='key' type='nominal' />
+            <column-instance column='[MAE_TEST]' derivation='None' name='[none:MAE_TEST:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAPE_TEST]' derivation='None' name='[none:MAPE_TEST:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[RMSE_TEST]' derivation='None' name='[none:RMSE_TEST:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[RMSE_TEST]' derivation='None' name='[none:RMSE_TEST:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ansatz]' derivation='None' name='[none:ansatz:nk]' pivot='key' type='nominal' />
+            <column-instance column='[RMSE_TEST]' derivation='Sum' name='[sum:RMSE_TEST:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.073hkbj10os9rb119l7bn1fa7io7].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <manual-sort column='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;strongly_layers&quot;</bucket>
+              <bucket>&quot;custom_layers&quot;</bucket>
+              <bucket>&quot;basic_layers&quot;</bucket>
+              <bucket>&quot;random_layers&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:Name:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;legendre3Basic Entangler84&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;legendre3basic_layers84&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;legendre3Custom Entangler84&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;legendre3custom_layers84&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;legendre3Random Layers84&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;legendre3random_layers84&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;legendre3strongly_layers84&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' direction='DESC' using='[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:RMSE_TEST:qk]' />
+          <hide-sort-controls />
+          <slices>
+            <column>[federated.073hkbj10os9rb119l7bn1fa7io7].[none:Name:nk]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]' scope='cols' value='true' />
+            <format attr='title' class='0' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]' scope='cols' value='RMSE' />
+            <format attr='display' class='0' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAE_TEST:qk]' scope='cols' value='true' />
+            <format attr='title' class='0' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAE_TEST:qk]' scope='cols' value=' MAE ' />
+            <format attr='title' class='0' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAPE_TEST:qk]' scope='cols' value='MAPE' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAPE_TEST:qk]' field-type='quantitative' major-origin='0.0' major-spacing='1.0' scope='cols' type='space' />
+            <format attr='display' class='0' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAPE_TEST:qk]' scope='cols' value='true' />
+            <format attr='tick-color' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]' value='#f5f5f5a0' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-size' value='26' />
+            <format attr='color' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' value='#000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' value='#79706e' />
+            <format attr='font-size' data-class='subtotal' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' value='18' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-size' value='12' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' value='false' />
+            <format attr='display' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' value='true' />
+            <format attr='font-size' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' value='12' />
+            <format attr='text-align' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' value='left' />
+            <format attr='font-size' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' value='12' />
+            <format attr='font-size' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]' value='11' />
+            <format attr='font-size' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAE_TEST:qk]' value='11' />
+            <format attr='font-size' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAPE_TEST:qk]' value='11' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' value='false' />
+            <format attr='in-tooltip' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:RMSE_TEST:qk]' value='false' />
+            <format attr='in-tooltip' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-size' value='20' />
+          </style-rule>
+          <style-rule element='data-highlighter'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='12' />
+            <format attr='border-style' value='solid' />
+            <format attr='background-color' value='#333333' />
+          </style-rule>
+          <style-rule element='data-highlighter-title'>
+            <format attr='font-size' value='18' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' />
+              <color column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:ok]' />
+              <color column='[federated.073hkbj10os9rb119l7bn1fa7io7].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value='plus' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' />
+              <color column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:ok]' />
+              <color column='[federated.073hkbj10os9rb119l7bn1fa7io7].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.0434806346893311' />
+                <format attr='shape' value='plus' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAE_TEST:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' />
+              <color column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:ok]' />
+              <color column='[federated.073hkbj10os9rb119l7bn1fa7io7].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value='plus' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='1.0434806346893311' />
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAPE_TEST:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' />
+              <color column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:ok]' />
+              <color column='[federated.073hkbj10os9rb119l7bn1fa7io7].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='14' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='shape' value='plus' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='1.0434806346893311' />
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]</rows>
+        <cols>([federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk] + ([federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAE_TEST:qk] + [federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAPE_TEST:qk]))</cols>
+      </table>
+      <simple-id uuid='{A75EFEA9-E7E0-4071-9C72-B5A59DA0E97A}' />
+    </worksheet>
+    <worksheet name='Hoja 1 (2)'>
+      <layout-options export-center-horz='true' export-color-legend='false' export-legend-location='bottom'>
+        <title>
+          <formatted-text>
+            <run>Mackey Glass dataset</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>Mackey Glass dataset, 8 qubits and 4 layers</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='runs (12) (runs)' name='federated.073hkbj10os9rb119l7bn1fa7io7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.073hkbj10os9rb119l7bn1fa7io7'>
+            <column aggregation='CountD' caption='Mae Test' datatype='real' name='[MAE_TEST]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Mape Test' datatype='real' name='[MAPE_TEST]' role='measure' type='quantitative' />
+            <column caption='Name1' datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column aggregation='CountD' caption='Rmse Test' datatype='real' name='[RMSE_TEST]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Ansatz' datatype='string' default-role='measure' default-type='quantitative' name='[ansatz]' role='dimension' type='nominal' />
+            <column-instance column='[ansatz]' derivation='Attribute' name='[attr:ansatz:nk]' pivot='key' type='nominal' />
+            <column-instance column='[qubits]' derivation='Attribute' name='[attr:qubits:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[MAE_TEST]' derivation='None' name='[none:MAE_TEST:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAPE_TEST]' derivation='None' name='[none:MAPE_TEST:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[RMSE_TEST]' derivation='None' name='[none:RMSE_TEST:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[RMSE_TEST]' derivation='None' name='[none:RMSE_TEST:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ansatz]' derivation='None' name='[none:ansatz:nk]' pivot='key' type='nominal' />
+            <column caption='Qubits' datatype='integer' name='[qubits]' role='measure' type='quantitative' />
+            <column-instance column='[RMSE_TEST]' derivation='Sum' name='[sum:RMSE_TEST:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.073hkbj10os9rb119l7bn1fa7io7].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.073hkbj10os9rb119l7bn1fa7io7]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <manual-sort column='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;strongly_layers&quot;</bucket>
+              <bucket>&quot;custom_layers&quot;</bucket>
+              <bucket>&quot;basic_layers&quot;</bucket>
+              <bucket>&quot;random_layers&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:Name:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;legendre3basic_layers84&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;legendre3custom_layers84&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;legendre3random_layers84&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;mackeyBasic Entangler42&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;mackeyBasic Entangler63&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;mackeyBasic Entangler84&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;mackeyCustom Entangler42&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;mackeyCustom Entangler63&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;mackeyCustom Entangler84&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;mackeyRandom Layers42&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;mackeyRandom Layers63&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;mackeyRandom Layers84&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;mackeystrongly_layers42&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;mackeystrongly_layers63&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;mackeystrongly_layers84&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' direction='DESC' using='[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:RMSE_TEST:qk]' />
+          <hide-sort-controls />
+          <slices>
+            <column>[federated.073hkbj10os9rb119l7bn1fa7io7].[none:Name:nk]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]' scope='cols' value='true' />
+            <format attr='title' class='0' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]' scope='cols' value='RMSE' />
+            <format attr='display' class='0' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAE_TEST:qk]' scope='cols' value='true' />
+            <format attr='title' class='0' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAE_TEST:qk]' scope='cols' value=' MAE ' />
+            <format attr='title' class='0' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAPE_TEST:qk]' scope='cols' value='MAPE' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAPE_TEST:qk]' field-type='quantitative' scope='cols' type='space' />
+            <format attr='display' class='0' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAPE_TEST:qk]' scope='cols' value='true' />
+            <format attr='tick-color' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]' value='#f5f5f5a0' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-size' value='26' />
+            <format attr='color' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' value='#000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' value='#79706e' />
+            <format attr='font-size' data-class='subtotal' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' value='18' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-size' value='12' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' value='false' />
+            <format attr='display' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' value='true' />
+            <format attr='font-size' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' value='12' />
+            <format attr='text-align' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]' value='left' />
+            <format attr='font-size' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' value='12' />
+            <format attr='font-size' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]' value='11' />
+            <format attr='font-size' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAE_TEST:qk]' value='11' />
+            <format attr='font-size' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAPE_TEST:qk]' value='11' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' value='false' />
+            <format attr='in-tooltip' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[sum:RMSE_TEST:qk]' value='false' />
+            <format attr='in-tooltip' field='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-size' value='20' />
+          </style-rule>
+          <style-rule element='data-highlighter'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='12' />
+            <format attr='border-style' value='solid' />
+            <format attr='background-color' value='#333333' />
+          </style-rule>
+          <style-rule element='data-highlighter-title'>
+            <format attr='font-size' value='18' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value='plus' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' />
+              <lod column='[federated.073hkbj10os9rb119l7bn1fa7io7].[:Measure Names]' />
+              <color column='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:ok]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.17491713166236877' />
+                <format attr='shape' value='plus' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAE_TEST:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:ansatz:nk]' />
+              <lod column='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:ok]' />
+              <lod column='[federated.073hkbj10os9rb119l7bn1fa7io7].[:Measure Names]' />
+              <color column='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value='plus' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='0.17491713166236877' />
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAPE_TEST:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:ok]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='14' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='shape' value='plus' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='0.17491713166236877' />
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:ansatz:nk]</rows>
+        <cols>([federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:ok] * ([federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:qk] + ([federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAE_TEST:qk] + [federated.073hkbj10os9rb119l7bn1fa7io7].[none:MAPE_TEST:qk])))</cols>
+        <percentages enabled='true' mode='column-in-pane' />
+      </table>
+      <simple-id uuid='{B2E8AF5D-686F-4C5F-9A04-B6296804454E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' name='Hoja 1'>
+      <cards>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='8' param='[federated.073hkbj10os9rb119l7bn1fa7io7].[none:RMSE_TEST:ok]&#10;[federated.073hkbj10os9rb119l7bn1fa7io7].[:Measure Names]' type='color' />
+            <card AVG='true' KURTOSIS='false' MAX='true' MEDIAN='true' MIN='true' QUART1='false' QUART3='false' SKEWNESS='false' STDEV='false' SUM='true' type='summary' />
+          </strip>
+        </edge>
+        <edge name='left'>
+          <strip size='175'>
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{DCBB899E-24E7-420C-9E4F-331AEE5FA0A0}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Hoja 1 (2)'>
+      <cards>
+        <edge name='right'>
+          <strip size='175'>
+            <card AVG='true' KURTOSIS='false' MAX='true' MEDIAN='true' MIN='true' QUART1='false' QUART3='false' SKEWNESS='false' STDEV='false' SUM='true' type='summary' />
+            <card pane-specification-id='8' param='[federated.073hkbj10os9rb119l7bn1fa7io7].[attr:qubits:ok]' type='color' />
+          </strip>
+        </edge>
+        <edge name='left'>
+          <strip size='175'>
+            <card type='marks' />
+            <card type='filters' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{21BBF511-6D0C-43D9-858F-2447C9929C22}' />
+    </window>
+  </windows>
+  <_.fcp.DataOrientationSidePane.true...data-orientation>
+    <data-orientation-item>
+      <simple-id uuid='{A75EFEA9-E7E0-4071-9C72-B5A59DA0E97A}' />
+      <desc>Legendre dataseet, 8 qubits and 4 layers. </desc>
+    </data-orientation-item>
+    <data-orientation-item>
+      <simple-id uuid='{B2E8AF5D-686F-4C5F-9A04-B6296804454E}' />
+      <desc>Legendre dataseet, 8 qubits and 4 layers. </desc>
+    </data-orientation-item>
+  </_.fcp.DataOrientationSidePane.true...data-orientation>
+</workbook>

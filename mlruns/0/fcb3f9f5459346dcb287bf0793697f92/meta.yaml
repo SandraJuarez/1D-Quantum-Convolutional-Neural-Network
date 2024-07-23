@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/52333/Documents/doctorado/Quantum_1DCNN_Experiments_Colab/final_tests_simplified/mlruns/0/fcb3f9f5459346dcb287bf0793697f92/artifacts
+deleted_time: 1707174601419
+end_time: 1707023631542
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: fcb3f9f5459346dcb287bf0793697f92
+run_name: mackeystrongly_layers42
+run_uuid: fcb3f9f5459346dcb287bf0793697f92
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707022181541
+status: 3
+tags: []
+user_id: '52333'
