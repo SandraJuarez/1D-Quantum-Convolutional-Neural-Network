@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/52333/Documents/doctorado/Quantum_1DCNN_Experiments_Colab/final_tests_simplified/mlruns/0/d71cce9c794d4f499ba9bf3454e8c14f/artifacts
+end_time: 1736125495861
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d71cce9c794d4f499ba9bf3454e8c14f
+run_name: loss_metricsADAM5e-4legendre3basic_layers84super_parallel7
+run_uuid: d71cce9c794d4f499ba9bf3454e8c14f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736125476040
+status: 3
+tags: []
+user_id: '52333'

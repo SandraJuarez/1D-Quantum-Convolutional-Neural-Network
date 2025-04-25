@@ -57,10 +57,13 @@ class CustomDataset(Dataset):
         self.transforms = transforms
          
     def __len__(self):
-        return (len(self.X))
+        return len(self.X)
     
     def __getitem__(self, i):
-        data =  self.X[i,:]
+        data = self.X[i, :]
+        
+        # Add an extra dimension to the data
+        data = data[np.newaxis, :]
         
         if self.transforms:
             data = self.transforms(data)

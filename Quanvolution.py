@@ -27,7 +27,6 @@ class QuanvLayer1D(nn.Module):
         if seed is None:
             seed = np.random.randint(low=0, high=10e6)
             
-        print("Initializing Circuit with random seed", seed)
 
         def custom_ansatz(i,weights):
             for j in range(self.out_channels):
@@ -139,11 +138,9 @@ class QuanvLayer1D(nn.Module):
         if ch > 1:
             # We compute the mean along the channel dimension:
             vector = vector.mean(axis=-2).reshape(bs, 1, l)
-
         # We add padding:
         pad = (self.padding, self.padding, 0, 0, 0, 0)
         vector = F.pad(vector, pad, "constant", value = 0)
-
         # l_out calculated from https://pytorch.org/docs/stable/generated/torch.nn.Conv1d.html with dilation = 1              
         l_out = (l + 2*self.padding - self.kernel_size) // self.stride + 1
        
@@ -159,5 +156,5 @@ class QuanvLayer1D(nn.Module):
                 # Assign expectation values to different channels of the output pixel
                 for c in range(self.out_channels):
                     out[b, c, k // self.stride] = q_results[c]     
-                 
+                
         return out

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/52333/Documents/doctorado/Quantum_1DCNN_Experiments_Colab/final_tests_simplified/mlruns/0/c78e59ce4a2b4cd59124009eac4fbe26/artifacts
+end_time: 1731912327888
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c78e59ce4a2b4cd59124009eac4fbe26
+run_name: test
+run_uuid: c78e59ce4a2b4cd59124009eac4fbe26
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731912323380
+status: 3
+tags: []
+user_id: '52333'

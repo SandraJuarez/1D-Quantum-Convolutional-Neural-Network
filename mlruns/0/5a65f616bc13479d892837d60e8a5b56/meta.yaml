@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/52333/Documents/doctorado/Quantum_1DCNN_Experiments_Colab/final_tests_simplified/mlruns/0/5a65f616bc13479d892837d60e8a5b56/artifacts
+end_time: 1724305403605
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5a65f616bc13479d892837d60e8a5b56
+run_name: eurostrongly_entangling24no_reupload
+run_uuid: 5a65f616bc13479d892837d60e8a5b56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724305402738
+status: 4
+tags: []
+user_id: '52333'

@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/52333/Documents/doctorado/Quantum_1DCNN_Experiments_Colab/final_tests_simplified/mlruns/0/9e78e3c6f39e41fca634db4bd187e5c8/artifacts
+deleted_time: 1726884427082
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 9e78e3c6f39e41fca634db4bd187e5c8
+run_name: sp500_mdbasic_layers126super_parallel
+run_uuid: 9e78e3c6f39e41fca634db4bd187e5c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726790472696
+status: 1
+tags: []
+user_id: '52333'

@@ -27,7 +27,8 @@ def train_testing_phase(X_train,Y_train,X_test,Y_test,kernel_size,n_layers,ansat
         net = CNN(kernel_size,n_layers,ansatz,out_size,out_channels,architecture)
         loss_function = nn.MSELoss()
         optimizer = torch.optim.Adam(net.parameters(), lr=5e-4)
-
+        sample_input = X_train[0]
+        input_shape = sample_input.shape
         # Run the training loop
         epochs = 30
         Loss_hist=[]
@@ -75,6 +76,7 @@ def train_testing_phase(X_train,Y_train,X_test,Y_test,kernel_size,n_layers,ansat
 
         #Calculate and print the total execution time
         total_time = end_time - start_time 
+        print(' El tiempo de entrenamiento es',total_time)
         mlflow.log_metric('training time',total_time) 
         Loss_hist_QCNN=np.array(Loss_hist)
         # We save loss_hist for later use:
